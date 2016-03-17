@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Trackerapp-dummydevice</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="my_dashboard">My Dashboard</string>
+    <string name="add_tracker">Add Tracker</string>
+    <string name="notifications">Notifications</string>
+    <string name="available_devices">Available Devices</string>
+    <string name="settings">Settings</string>
+    <string name="tracker_detail">Tracker details</string>
+    <string name="no_ble_device">No BLE Device found</string>
+    <string name="proxy">Proximity</string>
+    <string name="googlemap_key">AIzaSyBILoMqPu92IqMlSK_TXLruFL1zHuY7p_g</string>
+    <string name="play_services_error">Please install google play services</string>
+    <string name="replace_name">Name</string>
+    <string name="on_off">OFF/ON</string>
+    <string name="alert_zone">Alert zone</string>
+    <string name="submit">Submit</string>
+    <string name="alert_tone">Alert tone volume</string>
+    <string name="last_known">Last known location</string>
+    <string name="alert_tone_existing_list">Alert tone type</string>
+    <string name="buzzer_on_tracker_volume">Buzzer on tracker volume</string>
+    <string name="tracker_name">Tracker name:</string>
+    <string name="replace_pic">REPLACE PICTURE</string>
+    <string name="five">5 M</string>
+    <string name="fifteen">15 M</string>
+    <string name="thirty">30 M</string>
+    <string name="fifty">50 M</string>
+    <string name="hundred">100 M</string>
+    <string-array name="alertzonevalues">
+        <item>@string/five</item>
+        <item>@string/fifteen</item>
+        <item>@string/thirty</item>
+        <item>@string/fifty</item>
+        <item>@string/hundred</item>
+    </string-array>
+    <string name="pic">Picture</string>
+    <string name="done">DONE</string>
+    <string name="low">Low</string>
+    <string name="high">High</string>
+    <string-array name="alerttonetype">
+        <item>@string/low</item>
+        <item>@string/high</item>
+    </string-array>
+    <string name="notifications1">Notification1</string>
+    <string name="notifications2">Notification2</string>
+    <string-array name="notifications">
+        <item>@string/notifications1</item>
+        <item>@string/notifications2</item>
+    </string-array>
+</resources>

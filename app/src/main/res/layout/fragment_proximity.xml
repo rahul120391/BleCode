@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:id="@+id/iv_sensorimage"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ic_proximity_back"
+        android:src="@drawable/ic_proximity_meter"
+        />
+        <Button
+            android:id="@+id/btn_press"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/count_bg"
+            />
+        <TextView
+            android:id="@+id/tv_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:layout_below="@+id/iv_sensorimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="y"
+            android:layout_below="@+id/tv_x"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="z"
+            android:layout_below="@+id/tv_y"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/loc_pin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Elevation 15m / Distance 5m"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
